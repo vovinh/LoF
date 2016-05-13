@@ -1,0 +1,3035 @@
+Mono path[0] = 'C:/Users/tuvi/Documents/temp/t3/test_Data/Managed'
+Mono path[1] = 'C:/Users/tuvi/Documents/temp/t3/test_Data/Mono'
+Mono config path = 'C:/Users/tuvi/Documents/temp/t3/test_Data/Mono/etc'
+PlayerConnection initialized from C:/Users/tuvi/Documents/temp/t3/test_Data (debug = 0)
+PlayerConnection initialized network socket : 0.0.0.0 55343
+Multi-casting "[IP] 192.168.194.109 [Port] 55343 [Flags] 3 [Guid] 334631366 [EditorId] 4225712269 [Version] 1048832 [Id] WindowsPlayer(tuvi-lt) [Debug] 1" to [225.0.0.222:54997]...
+Waiting for connection from host on [192.168.194.109:55343]...
+Timed out. Continuing without host connection.
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,defer=y,address=0.0.0.0:56366
+PlayerConnection already initialized - listening to [192.168.194.109:55343]
+Initialize engine version: 5.3.4f1 (fdbb5133b820)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA Quadro 1000M (Microsoft Corporation - WDDM v1.2)      (ID=0xdfa)
+    Vendor:   NVIDIA
+    VRAM:     1999 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\tuvi\Documents\temp\t3\test_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\tuvi\Documents\temp\t3\test_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\tuvi\Documents\temp\t3\test_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\tuvi\Documents\temp\t3\test_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\tuvi\Documents\temp\t3\test_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\tuvi\Documents\temp\t3\test_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\tuvi\Documents\temp\t3\test_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\tuvi\Documents\temp\t3\test_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\tuvi\Documents\temp\t3\test_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\tuvi\Documents\temp\t3\test_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\tuvi\Documents\temp\t3\test_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\tuvi\Documents\temp\t3\test_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\tuvi\Documents\temp\t3\test_Data\Managed\Vuforia.UnityExtensions.dll (this message is harmless)
+Loading C:\Users\tuvi\Documents\temp\t3\test_Data\Managed\Vuforia.UnityExtensions.dll into Unity Child Domain
+- Completed reload, in  0.082 seconds
+Platform assembly: C:\Users\tuvi\Documents\temp\t3\test_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\tuvi\Documents\temp\t3\test_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 60Hz; virtual: 3840x1080 at -1920,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 6.285775 ms
+Setting BehaviourComponentFactory
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Vuforia.ComponentFactoryStarterBehaviour:SetBehaviourComponentFactory() (at C:\Users\tuvi\Documents\temp\t3\Assets\Vuforia\Scripts\Internal\ComponentFactoryStarterBehaviour.cs:47)
+Vuforia.ComponentFactoryStarterBehaviour:Awake() (at C:\Users\tuvi\Documents\temp\t3\Assets\Vuforia\Scripts\Internal\ComponentFactoryStarterBehaviour.cs:37)
+UnityEngine.GameObject:Internal_AddComponentWithType(Type)
+UnityEngine.GameObject:AddComponent(Type) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\UnityEngineGameObjectBindings.gen.cs:381)
+UnityEngine.GameObject:AddComponent() (at C:\buildslave\unity\build\artifacts\generated\common\runtime\UnityEngineGameObjectBindings.gen.cs:386)
+Vuforia.VuforiaBehaviour:Awake() (at C:\Users\tuvi\Documents\temp\t3\Assets\Vuforia\Scripts\VuforiaBehaviour.cs:33)
+ 
+(Filename: C:/Users/tuvi/Documents/temp/t3/Assets/Vuforia/Scripts/Internal/ComponentFactoryStarterBehaviour.cs Line: 47)
+
+Fallback handler could not load library C:/Users/tuvi/Documents/temp/t3/test_Data/Mono/VuforiaWrapper
+Fallback handler could not load library C:/Users/tuvi/Documents/temp/t3/test_Data/Mono/.\VuforiaWrapper
+Fallback handler could not load library C:/Users/tuvi/Documents/temp/t3/test_Data/Mono/VuforiaWrapper
+Fallback handler could not load library C:/Users/tuvi/Documents/temp/t3/test_Data/Mono/libVuforiaWrapper
+Fallback handler could not load library C:/Users/tuvi/Documents/temp/t3/test_Data/Mono/.\libVuforiaWrapper
+Fallback handler could not load library C:/Users/tuvi/Documents/temp/t3/test_Data/Mono/libVuforiaWrapper
+Fallback handler could not load library C:/Users/tuvi/Documents/temp/t3/test_Data/Mono/VuforiaWrapper
+Fallback handler could not load library C:/Users/tuvi/Documents/temp/t3/test_Data/Mono/.\VuforiaWrapper
+Fallback handler could not load library C:/Users/tuvi/Documents/temp/t3/test_Data/Mono/VuforiaWrapper
+Fallback handler could not load library C:/Users/tuvi/Documents/temp/t3/test_Data/Mono/libVuforiaWrapper
+Fallback handler could not load library C:/Users/tuvi/Documents/temp/t3/test_Data/Mono/.\libVuforiaWrapper
+Fallback handler could not load library C:/Users/tuvi/Documents/temp/t3/test_Data/Mono/libVuforiaWrapper
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:rendererGetGraphicsAPI ()
+  at Vuforia.VuforiaNativeWrapper.RendererGetGraphicsAPI () [0x00000] in <filename unknown>:0 
+  at Vuforia.VuforiaRendererImpl.GetRendererAPI () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Initialize () [0x00000] in <filename unknown>:0 
+  at Vuforia.VuforiaAbstractBehaviour.Awake () [0x00000] in <filename unknown>:0 
+  at Vuforia.VuforiaBehaviour.Awake () [0x00056] in C:\Users\tuvi\Documents\temp\t3\Assets\Vuforia\Scripts\VuforiaBehaviour.cs:35 
+ 
+(Filename: C:/Users/tuvi/Documents/temp/t3/Assets/Vuforia/Scripts/VuforiaBehaviour.cs Line: 35)
+
+StopVuforia
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Vuforia.VuforiaAbstractBehaviour:StopVuforia()
+Vuforia.VuforiaAbstractBehaviour:OnDisable()
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Fallback handler could not load library C:/Users/tuvi/Documents/temp/t3/test_Data/Mono/VuforiaWrapper
+Fallback handler could not load library C:/Users/tuvi/Documents/temp/t3/test_Data/Mono/.\VuforiaWrapper
+Fallback handler could not load library C:/Users/tuvi/Documents/temp/t3/test_Data/Mono/VuforiaWrapper
+Fallback handler could not load library C:/Users/tuvi/Documents/temp/t3/test_Data/Mono/libVuforiaWrapper
+Fallback handler could not load library C:/Users/tuvi/Documents/temp/t3/test_Data/Mono/.\libVuforiaWrapper
+Fallback handler could not load library C:/Users/tuvi/Documents/temp/t3/test_Data/Mono/libVuforiaWrapper
+Fallback handler could not load library C:/Users/tuvi/Documents/temp/t3/test_Data/Mono/VuforiaWrapper
+Fallback handler could not load library C:/Users/tuvi/Documents/temp/t3/test_Data/Mono/.\VuforiaWrapper
+Fallback handler could not load library C:/Users/tuvi/Documents/temp/t3/test_Data/Mono/VuforiaWrapper
+Fallback handler could not load library C:/Users/tuvi/Documents/temp/t3/test_Data/Mono/libVuforiaWrapper
+Fallback handler could not load library C:/Users/tuvi/Documents/temp/t3/test_Data/Mono/.\libVuforiaWrapper
+Fallback handler could not load library C:/Users/tuvi/Documents/temp/t3/test_Data/Mono/libVuforiaWrapper
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceStopCamera ()
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceStopCamera () [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.StopCameraDevice () [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.Stop () [0x00000] in <filename unknown>:0 
+  at Vuforia.VuforiaAbstractBehaviour.StopVuforia () [0x00000] in <filename unknown>:0 
+  at Vuforia.VuforiaAbstractBehaviour.OnDisable () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Trackable colorful lost
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Vuforia.DefaultTrackableEventHandler:OnTrackingLost() (at C:\Users\tuvi\Documents\temp\t3\Assets\Vuforia\Scripts\DefaultTrackableEventHandler.cs:107)
+Vuforia.DefaultTrackableEventHandler:OnTrackableStateChanged(Status, Status) (at C:\Users\tuvi\Documents\temp\t3\Assets\Vuforia\Scripts\DefaultTrackableEventHandler.cs:58)
+Vuforia.TrackableBehaviour:RegisterTrackableEventHandler(ITrackableEventHandler)
+Vuforia.DefaultTrackableEventHandler:Start() (at C:\Users\tuvi\Documents\temp\t3\Assets\Vuforia\Scripts\DefaultTrackableEventHandler.cs:32)
+ 
+(Filename: C:/Users/tuvi/Documents/temp/t3/Assets/Vuforia/Scripts/DefaultTrackableEventHandler.cs Line: 107)
+
+Fallback handler could not load library C:/Users/tuvi/Documents/temp/t3/test_Data/Mono/VuforiaWrapper
+Fallback handler could not load library C:/Users/tuvi/Documents/temp/t3/test_Data/Mono/.\VuforiaWrapper
+Fallback handler could not load library C:/Users/tuvi/Documents/temp/t3/test_Data/Mono/VuforiaWrapper
+Fallback handler could not load library C:/Users/tuvi/Documents/temp/t3/test_Data/Mono/libVuforiaWrapper
+Fallback handler could not load library C:/Users/tuvi/Documents/temp/t3/test_Data/Mono/.\libVuforiaWrapper
+Fallback handler could not load library C:/Users/tuvi/Documents/temp/t3/test_Data/Mono/libVuforiaWrapper
+Fallback handler could not load library C:/Users/tuvi/Documents/temp/t3/test_Data/Mono/VuforiaWrapper
+Fallback handler could not load library C:/Users/tuvi/Documents/temp/t3/test_Data/Mono/.\VuforiaWrapper
+Fallback handler could not load library C:/Users/tuvi/Documents/temp/t3/test_Data/Mono/VuforiaWrapper
+Fallback handler could not load library C:/Users/tuvi/Documents/temp/t3/test_Data/Mono/libVuforiaWrapper
+Fallback handler could not load library C:/Users/tuvi/Documents/temp/t3/test_Data/Mono/.\libVuforiaWrapper
+Fallback handler could not load library C:/Users/tuvi/Documents/temp/t3/test_Data/Mono/libVuforiaWrapper
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 1ab0 -> priority: 1 
+  Thread -> id: 13ec -> priority: 1 
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+DllNotFoundException: VuforiaWrapper
+  at (wrapper managed-to-native) Vuforia.VuforiaNativeWrapper:cameraDeviceGetVideoMode (int,intptr)
+  at Vuforia.VuforiaNativeWrapper.CameraDeviceGetVideoMode (Int32 idx, IntPtr videoMode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode (CameraDeviceMode mode) [0x00000] in <filename unknown>:0 
+  at Vuforia.CameraDeviceImpl.GetVideoMode () [0x00000] in <filename unknown>:0 
+  at Vuforia.VideoBackgroundManagerAbstractBehaviour.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Trackable colorful lost
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Vuforia.DefaultTrackableEventHandler:OnTrackingLost() (at C:\Users\tuvi\Documents\temp\t3\Assets\Vuforia\Scripts\DefaultTrackableEventHandler.cs:107)
+Vuforia.DefaultTrackableEventHandler:OnTrackableStateChanged(Status, Status) (at C:\Users\tuvi\Documents\temp\t3\Assets\Vuforia\Scripts\DefaultTrackableEventHandler.cs:58)
+Vuforia.TrackableBehaviour:OnDisable()
+ 
+(Filename: C:/Users/tuvi/Documents/temp/t3/Assets/Vuforia/Scripts/DefaultTrackableEventHandler.cs Line: 107)
+
